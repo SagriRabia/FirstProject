@@ -1,0 +1,210 @@
+/* .filter
+{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.menu .filter input
+{
+    margin: 10px 0px 10px 10px;
+}
+.menu .filter label
+{
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    color: lightcoral;
+}
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+.card
+{
+    flex-basis: 20%;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0px 0px 5px 0px;
+}
+.card img
+{
+    height: 200px;
+    width: 100%;
+}
+.card img.show
+{
+    animation: animate 0.4s ease;
+}
+.card img.hide
+{
+    display: none;
+}
+.menu .card-container .card button
+{
+    color: beige;
+    background-color: chocolate;
+    border-radius: 30px;
+    padding: 5px 20px;   
+    border: 1px wheat solid; 
+}
+.menu .card-container .card button:hover
+{
+    cursor: pointer;
+    color: chocolate;
+    background-color:beige ;
+    transition: 0.6s;
+}
+@media screen and (min-width:200px) and (max-width:600px)
+{
+    .card
+{
+    flex-basis: 40%;
+    text-align: center;
+    margin: 10px 5px;
+    border: 1px black solid;
+    padding: 0px 0px 5px 0px;
+}
+} */
+/* .List
+{
+    display: flex;
+    justify-content: center;
+}
+.List input
+{
+    margin: 10px 0px 10px 10px;
+}
+.List label
+{
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+}
+.images
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+.images .items.hide
+{
+    display: none;
+}
+.items
+{
+    flex-basis: 20%;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0px 0px 5px 0px;
+    border: 1px solid black;
+}
+.images .items
+{
+    display: block;
+}
+.items img
+{
+    height: 150px;
+    width: 100%;
+}
+.images .items button
+{
+    color: beige;
+    background-color: chocolate;
+    border-radius: 30px;
+    padding: 5px 20px;   
+    border: 1px wheat solid; 
+} */
+
+*
+{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px 10px;
+    min-height: 90vh;
+}
+section ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+section ul li
+{
+    list-style-type: none;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    background-color: grey;
+    cursor: pointer;
+    border-radius: 20px;
+}
+section ul li.active
+{
+    background-color: black;
+    color: wheat;
+}
+.images
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.items
+{
+    position: relative;
+    flex-basis: 20%;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0px 0px 5px 0px;
+    border: 1px solid black;
+    display: block;
+}
+.images .items.hide
+{
+    display: none;
+}
+.items img
+{
+    height: 150px;
+    width: 100%;
+}
+.images .items button
+{
+    color: beige;
+    background-color: chocolate;
+    border-radius: 30px;
+    padding: 5px 20px;   
+    border: 1px wheat solid; 
+} 
+.images .items button:hover
+{
+    cursor: pointer;
+    color: chocolate;
+    background-color:beige ;
+    transition: 0.6s;
+}
+@media screen and (min-width:200px) and (max-width:600px)
+{
+    .items
+{
+    flex-basis: 40%;
+    text-align: center;
+    margin: 10px 5px;
+    border: 1px black solid;
+    padding: 0px 0px 5px 0px;
+}
+}

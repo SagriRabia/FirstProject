@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+*
+{
+    font-family: 'poppins',sans-serif;
+}
+body
+{
+    background-image: url(../images/6.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.9;
+}
+.box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.container
+{
+    display: flex;
+    flex-direction:column;
+    width: 350px;
+    padding: 0px 20px;
+    justify-content: center;
+}
+span
+{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: rgb(31, 4, 4);
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.input-field input
+{
+    height: 40px;
+    width: 87%;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    background-color: rgba(255,255,255,0.4);
+    padding: 0px 0px 0px 40px;
+}
+.input-field i
+{
+    position: relative;
+    top: -29px;
+    left: 15px;
+}
+.input-field button
+{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    background-color: rgba(255,255,255,0.4);
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.input-field button:hover
+{
+    background-color: rgba(245, 222, 179, 0.292);
+}
+.two-col
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    margin-top: 12px;
+    color: black;
+}
+label a
+{
+    text-decoration: none;
+    color:black;
+}
