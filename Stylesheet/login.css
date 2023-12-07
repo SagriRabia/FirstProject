@@ -6,12 +6,6 @@
 }
 body
 {
-    background-image: url(../images/6.jpg);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-attachment: fixed;
-    background-size: cover;
-    opacity: 0.9;
 }
 .box
 {
@@ -19,6 +13,7 @@ body
     align-items: center;
     justify-content: center;
     min-height: 90vh;
+    background: gray;
 }
 .container
 {

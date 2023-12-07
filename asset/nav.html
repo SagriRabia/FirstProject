@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../Stylesheet/nav.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script> 
     <title>Navbar</title>
 </head>
 <body>
@@ -22,5 +23,11 @@
             </div>
         </ul>
     </nav>
+    <script>
+        $('ul li.btn').click(function(){
+            $('ul div.nav-items').toggleClass('show');
+            $('ul li.btn i').toggleClass('show');
+        })
+    </script>
 </body>
 </html>

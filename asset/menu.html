@@ -11,10 +11,8 @@
 <body>
     <nav class="navbar">
         <ul>
-            <a href="../asset/index (1).html">
-                <img src="../images/sarah optic/logo.png" alt="" style="height: 45px;width: 55px;margin:1px 7px 0px 0px;border-radius:50%;">
-            </a>
-            <li class="logo"></a>Sarah Optics</li>
+            <img src="../images/sarah optic/logo.png" alt="" style="height: 45px;width: 55px;margin:1px 7px 0px 0px;border-radius:50%;">
+            <li class="logo">Sarah Optics</li>
             <li class="btn"><i class="fa fa-bars"></i></li>    
             </div>
             <div class="nav-items">
@@ -25,6 +23,12 @@
             </div>
         </ul>
     </nav>
+    <script>
+        $('ul li.btn').click(function(){
+            $('ul div.nav-items').toggleClass('show');
+            $('ul li.btn i').toggleClass('show');
+        })
+    </script>
     <section>
         <ul>
             <li class="list active" data-filter="all">All</li>

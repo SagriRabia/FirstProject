@@ -31,15 +31,6 @@ ul li.logo
     color:black;
     font-weight: bold;
 }
-ul li.btn
-{
-    margin: 0px 10px;
-    font-size: 1.2rem;
-    border: 1px solid black;
-    padding: 5px 5px;
-    border-radius:5px;
-    display: none;
-}
 ul div.nav-items
 {
     display: inline-flex;
@@ -55,7 +46,15 @@ ul div.nav-items li a:hover
 {
     color: rgb(13, 17, 17);
     transition: 0.2s;
-    text-decoration:underline solid 2px rgb(13, 17, 17);
+}
+ul li.btn
+{
+    margin: 0px 10px;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding: 5px 5px;
+    border-radius:5px;
+    display: none;
 }
 ul li.btn i.show:before
 {
@@ -77,27 +76,27 @@ ul li.btn i.show:before
     {
         margin: -3px 5px 0px 0px;
     } */
-    nav ul div.nav-items
+    ul div.nav-items
     {
         z-index: -1;
         position: fixed;
-        top: -150px;
+        top: -250px;
         background-color: olive;
         width: 100%;
         display: inline-block;
         text-align: center;
         right: 0;
-        transition: 0.4s;
+        transition: 1s;
     }    
-    nav ul div.nav-items.show
+    ul div.nav-items.show
     {
         top: 75px;
     }
-    nav ul div.nav-items li
+    ul div.nav-items li
     {
         padding: 5px;
     }
-    nav ul div.nav-items li a
+    ul div.nav-items li a
     {
         cursor: pointer;
     }    
